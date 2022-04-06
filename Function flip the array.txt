@@ -6,7 +6,7 @@ lengthArray = alert('введите количество чисел в масс�
 
 array[arrayrandom]
     
-while (index < lengthArray/2) 
+while (index < lengthArray) 
     help = array[lengthArray - index - 1]
     array[lengthArray - index - 1] = array[index]
     array[index] = help

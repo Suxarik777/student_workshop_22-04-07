@@ -1,0 +1,15 @@
+function.arrayrandom
+    array.apply(null, Array(lengthArray)).map(function() { return Math.floor(Math.random() * 100 % 100); })
+
+index = 0
+lengthArray = alert('введите количество чисел в массиве') 
+
+array[arrayrandom]
+    
+while (index < lengthArray/2) 
+    help = array[lengthArray - index - 1]
+    array[lengthArray - index - 1] = array[index]
+    array[index] = help
+    index = index + 1
+
+print(array)
